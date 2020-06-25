@@ -13,7 +13,6 @@ func InitRouter() *gin.Engine {
 	{
 		v1.GET("/getuser", GetUser)
 	}
-	//router.GET("/getUser", GetUser)
 
 	v2 := router.Group("/v2")
 	{

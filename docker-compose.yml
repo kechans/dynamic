@@ -1,0 +1,8 @@
+version: 3
+services:
+  server:
+    image: dynamic/dynamic:latest
+    ports:
+    - 8080:8000
+    volumes:
+    - ./dynamic
